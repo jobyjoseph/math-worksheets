@@ -1,0 +1,44 @@
+.wrapper {
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    word-spacing: 1rem;
+}
+
+.slNo {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 100;
+    width: 2rem;
+}
+
+.wrapper span {
+    width: 40px;
+    text-align: center;
+}
+
+.resultInput {
+    height: 3rem;
+    width: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: inherit;
+    line-height: 2rem;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+.resultInput:focus {
+    outline: 0;
+    border: 1px solid #228BBC;
+}
+
+.resultInput.correct {
+    background-color: #C8E6C9;
+}
+
+.resultInput.incorrect {
+    background-color: #FFCDD2;
+}

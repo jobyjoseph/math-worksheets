@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Math Worksheets</title>
         <meta name="description" content="Math worksheets for daily practice" />
@@ -12,20 +12,30 @@ export default function Home() {
       <main>
         <h3>Subtraction</h3>
         <div className="grid">
-          <div className="grid-link">
-            <a href="#">Subtraction from numbers upto 11</a>
+          <div className="col2">
+            <a className="mainlink" href="/subtraction-from-11">
+              Subtraction from 11
+            </a>
           </div>
-          <div className="grid-link">
-            <a href="#">Subtraction from numbers upto 12</a>
+          <div className="col2">
+            <a className="mainlink" href="/subtraction-from-12">
+              Subtraction from 12
+            </a>
           </div>
-          <div className="grid-link">
-            <a href="#">Subtraction from numbers upto 14</a>
+          <div className="col2">
+            <a className="mainlink" href="#">
+              Subtraction from 14
+            </a>
           </div>
-          <div className="grid-link">
-            <a href="#">Subtraction from numbers upto 16</a>
+          <div className="col2">
+            <a className="mainlink" href="#">
+              Subtraction from 16
+            </a>
           </div>
-          <div className="grid-link">
-            <a href="#">Subtraction from numbers upto 20</a>
+          <div className="col2">
+            <a className="mainlink" href="#">
+              Subtraction from 20
+            </a>
           </div>
         </div>
       </main>
